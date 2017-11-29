@@ -27,5 +27,6 @@ like the one we put in the `data.obj` of the main instance.
 Your missions:
 1. Visualize the object clearly, like in the console or vue dev-tools
 2. Allow edition of property values (bonus: avoid mutating the props directly!)
+3. Allow edition of property names
 
-Timing: 1h or less
+Timing: 1h
