@@ -1,7 +1,20 @@
-import Vue from 'vue'
-import App from './App.vue'
+import React from 'react';
+import ReactDOM from 'react-dom';
 
-new Vue({
-  el: '#app',
-  render: h => h(App)
-})
+let object = {
+  super: {
+    prop: {
+      nested: 'reall'
+    },
+    other: 'hey'
+  },
+  stuff: 'yeah'
+}
+
+ReactDOM.render(
+  <div id="app">
+      <h1>Toucan Object explorer</h1>
+      <h2>Test by ...</h2>
+  </div>,
+  document.getElementById('app')
+);
