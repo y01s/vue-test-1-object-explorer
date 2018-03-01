@@ -15,6 +15,7 @@ ReactDOM.render(
   <div id="app">
       <h1>Toucan Object explorer</h1>
       <h2>Test by ...</h2>
+      <pre>{JSON.stringify(obj, null, 2)}</pre>
   </div>,
   document.getElementById('app')
 );
