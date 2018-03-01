@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-let object = {
+let obj = {
   super: {
     prop: {
       nested: 'reall'
